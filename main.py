@@ -5,13 +5,13 @@ import os
 try:
     import llama_cpp
 except ImportError:
-    st.warning("⏳ Installing llama-cpp-python... This may take a few minutes.")
+    st.warning("Installing llama-cpp-python... This may take a few minutes.")
     from utils import install_llama_cpp
     if install_llama_cpp():
         st.success("✅ Installation complete! Please refresh the page.")
         st.stop()
     else:
-        st.error("❌ Installation failed. Please install manually: pip install llama-cpp-python")
+        st.error("Installation failed. Please install manually: pip install llama-cpp-python")
         st.stop()
 
 from inference import load_model, inference

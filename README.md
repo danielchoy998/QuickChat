@@ -4,11 +4,11 @@ A Streamlit-based chatbot platform for testing local GGUF models with Google She
 
 ## Features
 
-- 💬 **Local GGUF Model Support** - Run models locally with llama-cpp-python
-- 🤗 **HuggingFace Integration** - Download models directly from HuggingFace Hub
-- 📊 **Google Sheets Export** - Export conversations to Google Sheets for analysis
-- 🎨 **Clean UI** - Simple and intuitive Streamlit interface
-- ⚙️ **Configurable** - Adjust temperature, system prompts, and model selection
+- **Local GGUF Model Support** - Run models locally with llama-cpp-python
+- **HuggingFace Integration** - Download models directly from HuggingFace Hub
+- **Google Sheets Export** - Export conversations to Google Sheets for analysis
+- **Clean UI** - Simple and intuitive Streamlit interface
+- **Configurable** - Adjust temperature, system prompts, and model selection
 
 ## Installation
 
@@ -124,8 +124,8 @@ The `.gitignore` file is configured to exclude:
 - `*.gguf` - Model weight files
 
 **What to commit:**
-- ✅ `copy.env` - Template file with empty values
-- ❌ `.env` - Your actual credentials (never commit this!)
+- `copy.env` - Template file with empty values
+- `.env` - Your actual credentials (never commit this!)
 
 **Setup for new users:**
 ```bash
