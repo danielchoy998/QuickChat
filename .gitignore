@@ -1,0 +1,49 @@
+# Credentials - NEVER commit these!
+credentials.json
+*.json.backup
+.env
+
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+
+# Models - too large for git
+models/
+*.gguf
+*.bin
+*.safetensors
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.txt
+*.tmp
+.cache/
+
+# Test files
+test.py
+
+# Credentials
+.env
+
